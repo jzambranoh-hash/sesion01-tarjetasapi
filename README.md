@@ -1,3 +1,17 @@
+## Pasos para levantar el proyecto
+
+1. Instala un JDK 17 y Maven. Comprueba que estén disponibles desde una terminal:
+   ```bash
+   java -version
+   mvn -version
+   ```
+2. Abre una terminal en la carpeta raíz del proyecto, donde se encuentra `pom.xml`.
+3. Inicia la aplicación con Maven:
+   ```bash
+   mvn spring-boot:run
+   ```
+4. Cuando la aplicación esté lista, prueba la API en http://localhost:8080/swagger-ui.html o usa el archivo `requests.http`. Para detenerla, pulsa `Ctrl+C` en la terminal.
+
 # tarjetas-api — PROYECTO BASE DEL EJERCICIO
 
 Completa esta API REST de tarjetas con ayuda de **GitHub Copilot** siguiendo el enunciado.
